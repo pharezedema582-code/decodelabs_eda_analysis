@@ -1,0 +1,61 @@
+==================================================
+PROJECT 2: EXPLORATORY DATA ANALYSIS
+==================================================
+
+DATA SUMMARY:
+- Total orders analyzed: 1,200
+- Total revenue: $1,264,761.96
+- Average order value: $1,053.97
+- Median order value: $823.62
+- Order value range: $11.39 - $3,456.40
+
+KEY FINDINGS:
+
+1. ORDER VALUE
+   - Average ($1,054) is higher than median ($824)
+   - This suggests a few very large orders skew the average
+   - 34 orders exceed $3,000
+
+2. PRODUCT POPULARITY
+   - Most popular: Printers (181 orders)
+   - Sales are evenly distributed across all 7 product categories
+   - No single product dominates
+
+3. PAYMENT METHODS
+   - Online payments are most common (258 orders)
+   - Cash is surprisingly high (246 orders)
+   - All payment methods are fairly balanced
+
+4. ORDER STATUS (MAJOR CONCERN)
+   - Only 231 orders delivered successfully (19.2%)
+   - Cancelled: 250, Returned: 247, Pending: 237, Shipped: 235
+   - 80.8% of orders are NOT completed
+
+5. REFERRAL SOURCES
+   - Instagram drives most orders (259)
+   - All channels perform similarly (222-259 orders)
+   - Marketing is fairly balanced across channels
+
+6. OUTLIERS
+   - 8 extreme orders identified (>$3,300)
+   - Highest order: $3,456.40 (Tablet)
+   - These should be investigated for legitimacy
+
+
+RECOMMENDATIONS:
+
+1. Investigate cancellation/return rates
+   - Why are so many orders not delivered?
+   - Is this a shipping issue, product quality, or customer problem?
+
+2. Review high-value orders
+   - Verify all orders over $3,000 are legitimate
+   - Consider fraud detection measures
+
+3. Marketing strategy
+   - Increase investment in Instagram
+   - Test why other channels underperform
+
+4. Product strategy
+   - Create bundles across popular products
+   - Consider promotions for underperforming products
